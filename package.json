@@ -1,0 +1,26 @@
+{
+  "name": "coresync-api",
+  "version": "1.0.0",
+  "description": "CoreSync Express API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sora-s-key/coresync-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sora-s-key/coresync-api/issues"
+  },
+  "homepage": "https://github.com/Sora-s-key/coresync-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
