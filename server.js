@@ -9,10 +9,34 @@ app.use(cors());
 app.use(express.json());
 
 // -------------------- TEMP DATABASE --------------------
+// TEMP in-memory data (simulates a database)
 let tasks = [
-  { id: 1, title: "Workout 1", completed: false },
-  { id: 2, title: "Workout 2", completed: true }
+  {
+    id: 1,
+    title: "Push-ups",          // keep title for existing UI
+    name: "Push-ups",
+    type: "strength",
+    sets: 1,
+    reps: 10,
+    durationMin: 1,
+    calories: 5,
+    autoLoggedFrom: "Jupyter tracker",
+    completed: false
+  },
+  {
+    id: 2,
+    title: "Bench",             // keep title for existing UI
+    name: "Bench",
+    type: "strength",
+    sets: 3,
+    reps: 10,
+    durationMin: 1,
+    calories: 15,
+    autoLoggedFrom: "Jupyter tracker",
+    completed: true
+  }
 ];
+
 
 // -------------------- ROUTES ---------------------
 
